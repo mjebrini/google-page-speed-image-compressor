@@ -1,0 +1,21 @@
+{
+  "name": "jebrini/compressor",
+  "description": "Compressor, a bulk files recursive imag compressor",
+  "license": "MIT",
+  "keywords": ["google page speed", "image compressor", "bulk compressor"],
+  "authors": [
+      {
+          "name": "Jebrini Tech",
+          "email": "info@jebrini-tech.com"
+      }
+  ],
+  "require": {},
+  "require-dev": {
+      "phpunit/phpunit": "6.3.*"
+  },
+  "autoload": {
+      "psr-4": {
+          "Jebrini\\Compressor\\": "src"
+      }
+  }
+}
